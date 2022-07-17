@@ -4,7 +4,6 @@ namespace MockCsvParser.Models
     public class DataParser
     {
             
-        
             public string FirstName;
 
             public string LastName;
