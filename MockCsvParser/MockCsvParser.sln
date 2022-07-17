@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockCsvParser", "MockCsvParser.csproj", "{F7774BCF-959F-473E-91A4-19F4D6A3F503}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7774BCF-959F-473E-91A4-19F4D6A3F503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7774BCF-959F-473E-91A4-19F4D6A3F503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7774BCF-959F-473E-91A4-19F4D6A3F503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7774BCF-959F-473E-91A4-19F4D6A3F503}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E5089CD-4DA9-496D-9794-D50C529FA7CA}
+	EndGlobalSection
+EndGlobal
