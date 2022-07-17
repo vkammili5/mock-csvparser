@@ -4,7 +4,7 @@ using MockCsvParser.Models;
 
 ReadCsv readCsv = new ReadCsv();
 
-List<DataParser> dataParser = readCsv.ReadingCsvFile();
+List<DataParser> dataParserList = readCsv.ReadingCsvFile();
 
 Console.WriteLine("Choose an option from the menu below:");
 Console.WriteLine("1) Every person who has 'Esq' in their company ");
@@ -19,5 +19,37 @@ Console.Write("\r\nSelect an option: ");
 
 int option = Convert.ToInt32(Console.ReadLine());
 
+//List<DataParser> dataParserList;
+
+Queries query = new Queries();
+
+switch (option)
+{
+    case 1:
+        dataParserList = query.WhoHasEsqInCompany(dataParserList);
+        break;
+    case 2:
+        dataParserList = query.WhoLivesInDerby(dataParserList);
+        break;
+    case 3:
+        dataParserList = query.WhoseHouseNumberIsThreeDigits(dataParserList);
+        break;
+    case 4:
+        dataParserList = query.WhoseWebsiteIs35Char(dataParserList);
+        break;
+    case 5:
+        dataParserList = query.WhoLivesInPostCodeArea(dataParserList);
+        break;
+    case 6:
+        dataParserList = query.WhoseFirstPhoneNumberIsLargerThanSecondPhoneNumber(dataParserList);
+        break;
+    default:
+        break;
+}
+
+foreach(DataParser item in dataParserList)
+{
+    Console.WriteLine("{0} - {1} - {2} ", item.Pos, item.FirstName + item.LastName, item.CompanyName);
+}
 
 
