@@ -20,7 +20,7 @@ namespace MockCsvParser.Models
             {
                 dataParserList.Add(item);
             }
-            return dataParserList;
+            return dataParserList.ToList();
         }
 
         public List<DataParser> WhoLivesInDerby(List<DataParser> records)
