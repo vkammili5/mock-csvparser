@@ -23,5 +23,14 @@ The application need to read from a csv file given. The csv file contains 500 fa
 
 The user can select any of the above options from the console. 
 
+### Output :
+
+Each output consists of a count and then a list of people which correspond to some criteria. Each person should be displayed on a new line consisting of their
+position in the list and their name and their company.
+
+For example, if the criteria was “Every person who is called ‘Karma Quarto’” then the output should be:
+
+Count: 1
+30 - Karma Quarto - J C S Machinery
 
 
